@@ -26,6 +26,7 @@ services:
       - PGDATABASE=postgres
       - PGPASSWORD=postgres_password
       - PGPORT=5432
+
 # Environment Variables
   client:
     build:
